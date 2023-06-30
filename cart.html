@@ -6,8 +6,10 @@
     <title>Cart</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cart.css">
+    <!-- SCRIPT -->
+    <script src="scrpt.js" defer></script>
 </head>
-<body>
+<body onload="addToCart()">
     <header id="header">
         <a href="#"><img src="images/logo.png" class="logo" alt=""> </a>
         <div class="search-container">
@@ -44,11 +46,11 @@
     <main>
         <h2 class="section-title">CART</h2>
         <div class="cart-wrapper">
-            <div class="cart-item">
+            <!-- <div class="cart-item">
                 <img class="image-cart" src="images/pexels-dom-j-45056.jpg" alt="">
                 <h4>NAME:</h4>
                 <p class="item-qty">
-                    Quantity: <span class="sub-total">$50.00</span>
+                    Quantity: $<span class="sub-total">50.00</span>
                 </p>
                 <button class="btn-remove">Remove</button>
             </div>
@@ -59,8 +61,9 @@
                     Quantity: <span class="sub-total">$50.00</span>
                 </p>
                 <button class="btn-remove">Remove</button>
-            </div>
+            </div> -->
         </div>
+        
         <div class="total-cost">
             <h3>Total: <span>$100.00</span></h3>
         </div>

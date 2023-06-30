@@ -1,6 +1,30 @@
 .cart-wrapper {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 60px; 
+    gap: 20px; 
     
+}
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary) ;
+    width: 180px;;
+}
+.image-cart{
+    width: 100%;
+    height: auto;
+}
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.cart-item h4, p{
+    justify-self: end;
+}
+.cart-item button {
+    align-self: stretch;
+    justify-self: end;
+    margin-top: auto;
 }
